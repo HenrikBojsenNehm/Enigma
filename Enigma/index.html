@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="doublePage">
+        <div id="halfPage1">
+            <div id="wheelBox">
+                <div id="wheelsChosen">
+                    <p class="selectorName" id="selected1">First wheel number:</p>
+                    <input class="selector" id="input1" type="text" maxlength="1">
+                    <p class="selectorName" id="selected2">Second wheel number:</p>
+                    <input class="selector" id="input2" type="text" maxlength="1">
+                    <p class="selectorName" id="selected3">Third wheel number:</p>
+                    <input class="selector" id="input3" type="text" maxlength="1">
+                </div>
+                <div class="wheel" id="wheel3">
+                    <div class="arrow arrowUp" id="arrowUp3">⋀</div>
+                    <div class="wheelDisplay" id="wheelDisplay3"></div>
+                    <div class="arrow arrowDown" id="arrowDown3">⋁</div>
+                </div>
+                <div class="wheel" id="wheel2">
+                    <div class="arrow arrowUp" id="arrowUp2">⋀</div>
+                    <div class="wheelDisplay" id="wheelDisplay2"></div>
+                    <div class="arrow arrowDown" id="arrowDown2">⋁</div>
+                </div>
+                <div class="wheel" id="wheel1">
+                    <div class="arrow arrowUp" id="arrowUp1">⋀</div>
+                    <div class="wheelDisplay" id="wheelDisplay1"></div>
+                    <div class="arrow arrowDown" id="arrowDown1">⋁</div>
+                </div>
+            </div>
+            <div id="letterBox">
+                <div id="QP">
+                    <div class="lightLetters lightQ">Q</div>
+                    <div class="lightLetters lightW">W</div>
+                    <div class="lightLetters lightE">E</div>
+                    <div class="lightLetters lightR">R</div>
+                    <div class="lightLetters lightT">T</div>
+                    <div class="lightLetters lightY">Y</div>
+                    <div class="lightLetters lightU">U</div>
+                    <div class="lightLetters lightI">I</div>
+                    <div class="lightLetters lightO">O</div>
+                    <div class="lightLetters lightP">P</div>
+                </div>
+                <div id="AL">
+                    <div class="lightLetters lightA">A</div>
+                    <div class="lightLetters lightS">S</div>
+                    <div class="lightLetters lightD">D</div>
+                    <div class="lightLetters lightF">F</div>
+                    <div class="lightLetters lightG">G</div>
+                    <div class="lightLetters lightH">H</div>
+                    <div class="lightLetters lightJ">J</div>
+                    <div class="lightLetters lightK">K</div>
+                    <div class="lightLetters lightL">L</div>
+                </div>
+                <div id="ZM">
+                    <div class="lightLetters lightZ">Z</div>
+                    <div class="lightLetters lightX">X</div>
+                    <div class="lightLetters lightC">C</div>
+                    <div class="lightLetters lightV">V</div>
+                    <div class="lightLetters lightB">B</div>
+                    <div class="lightLetters lightN">N</div>
+                    <div class="lightLetters lightM">M</div>
+                </div>
+            </div>
+            <div class="btnDownUp" id="btnDown">⋁</div>
+        </div>
+        <div id="halfPage2">
+            <div id="alignmentBox">
+                <div class="btnDownUp" id="btnUp">⋀</div>
+                <div id="plugBox">
+                    <div class="plugSet">
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair1" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair1" type="text" maxlength="1">                        
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair2" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair2" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair3" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair3" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair4" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair4" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair5" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair5" type="text" maxlength="1">
+                        </div>
+                    </div>
+                    <div class="plugSet">
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair6" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair6" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair7" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair7" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair8" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair8" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair9" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair9" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair10" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair10" type="text" maxlength="1">
+                        </div>   
+                    </div>
+                    <div class="plugSet">
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair11" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair11" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair12" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair12" type="text" maxlength="1">
+                        </div>
+                        <div class="plugPairs">
+                            <input class="plugInput plugInput1 inputPair13" type="text" maxlength="1">
+                            <p class="plugLine">--</p>
+                            <input class="plugInput plugInput2 inputPair13" type="text" maxlength="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
